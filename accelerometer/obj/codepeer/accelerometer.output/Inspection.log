@@ -1,0 +1,6 @@
+CodePeer 21.0w (20200218) on lasource (Linux 64 bits). Starting at 2020-02-19 16:23:32.
+codepeer_msg_reader arguments : 
+/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/accelerometer/obj/codepeer/accelerometer.output 
+SQL => SELECT Baseline_Id FROM Inspections WHERE Library_Id = 2 AND  Inspection_Id = 1 LIMIT 1; failed
+Fatal internal error in codepeer_msg_reader: raised DB.SQL_EXCEPTION : db-sqlite.adb:299
+

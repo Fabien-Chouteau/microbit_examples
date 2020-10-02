@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/text_scrolling/text_scrolling.gpr
+20181218172106
+/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/microbit_zfp.gpr
+20181220103830
+[BOUND OBJECT FILES]
+/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/text_scrolling/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/text_scrolling/obj/
+-L/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/text_scrolling/obj/
+-L/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/obj/zfp_lib_Debug/
+-L/home/chouteau/src/GNAT_GPL/2018-arm-elf/arm-eabi/lib/gnat/zfp-microbit/adalib/
+-static
+-static-libgcc
+/home/chouteau/src/GNAT_GPL/2018-arm-elf/arm-eabi/lib/gnat/zfp-microbit/adalib/libgnat.a

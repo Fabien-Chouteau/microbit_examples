@@ -1,0 +1,9 @@
+graph: { title: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/digital_out/src/main.adb"
+node: { title: "_ada_main" label: "Main\n/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/digital_out/src/main.adb:35:1\n8 bytes (static)" }
+node: { title: "microbit__ios__set" label: "Set\n/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/src/microbit-ios.ads:52:14" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "microbit__ios__set" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/digital_out/src/main.adb:41:19" }
+node: { title: "microbit__time__delay_ms" label: "Delay_Ms\n/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/src/microbit-time.ads:41:14" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "microbit__time__delay_ms" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/digital_out/src/main.adb:44:20" }
+edge: { sourcename: "_ada_main" targetname: "microbit__ios__set" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/digital_out/src/main.adb:47:19" }
+edge: { sourcename: "_ada_main" targetname: "microbit__time__delay_ms" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/digital_out/src/main.adb:50:20" }
+}

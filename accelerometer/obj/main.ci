@@ -1,0 +1,27 @@
+graph: { title: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/accelerometer/src/main.adb"
+node: { title: "microbit__time__delay_ms" label: "Delay_Ms\n/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/src/microbit-time.ads:41:14" shape : ellipse }
+node: { title: "microbit__display__display" label: "Display\n/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/src/microbit-display.ads:45:14" shape : ellipse }
+node: { title: "microbit__display__symbols__down_arrow" label: "Down_Arrow\n/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/src/microbit-display-symbols.ads:40:14" shape : ellipse }
+node: { title: "microbit__display__symbols__up_arrow" label: "Up_Arrow\n/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/src/microbit-display-symbols.ads:39:14" shape : ellipse }
+node: { title: "microbit__display__symbols__right_arrow" label: "Right_Arrow\n/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/src/microbit-display-symbols.ads:38:14" shape : ellipse }
+node: { title: "microbit__display__symbols__left_arrow" label: "Left_Arrow\n/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/src/microbit-display-symbols.ads:37:14" shape : ellipse }
+node: { title: "microbit__display__clear__2" label: "Clear\n/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/src/microbit-display.ads:42:14" shape : ellipse }
+node: { title: "microbit__console__put_line" label: "Put_Line\n/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/src/microbit-console.ads:43:14" shape : ellipse }
+node: { title: "system__concat_8__str_concat_8" label: "Str_Concat_8\n/home/chouteau/src/GNAT_GPL/2019-linux/lib/gcc/x86_64-pc-linux-gnu/8.3.1/adainclude/s-conca8.ads:39:14" shape : ellipse }
+node: { title: "system__img_int__image_integer" label: "Image_Integer\n/home/chouteau/src/GNAT_GPL/2019-linux/lib/gcc/x86_64-pc-linux-gnu/8.3.1/adainclude/s-imgint.ads:39:14" shape : ellipse }
+node: { title: "microbit__accelerometer__data" label: "Data\n/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/src/microbit-accelerometer.ads:36:13" shape : ellipse }
+node: { title: "_ada_main" label: "Main\n/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/accelerometer/src/main.adb:42:1\n480 bytes (dynamic)" }
+edge: { sourcename: "_ada_main" targetname: "microbit__time__delay_ms" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/accelerometer/src/main.adb:82:11" }
+edge: { sourcename: "_ada_main" targetname: "microbit__display__display" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/accelerometer/src/main.adb:77:17" }
+edge: { sourcename: "_ada_main" targetname: "microbit__display__symbols__down_arrow" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/accelerometer/src/main.adb:74:25" }
+edge: { sourcename: "_ada_main" targetname: "microbit__display__symbols__up_arrow" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/accelerometer/src/main.adb:71:25" }
+edge: { sourcename: "_ada_main" targetname: "microbit__display__symbols__right_arrow" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/accelerometer/src/main.adb:68:25" }
+edge: { sourcename: "_ada_main" targetname: "microbit__display__symbols__left_arrow" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/accelerometer/src/main.adb:65:25" }
+edge: { sourcename: "_ada_main" targetname: "microbit__display__clear__2" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/accelerometer/src/main.adb:60:14" }
+edge: { sourcename: "_ada_main" targetname: "microbit__console__put_line" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/accelerometer/src/main.adb:55:14" }
+edge: { sourcename: "_ada_main" targetname: "system__concat_8__str_concat_8" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/accelerometer/src/main.adb:57:30" }
+edge: { sourcename: "_ada_main" targetname: "system__img_int__image_integer" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/accelerometer/src/main.adb:57:38" }
+edge: { sourcename: "_ada_main" targetname: "system__img_int__image_integer" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/accelerometer/src/main.adb:56:38" }
+edge: { sourcename: "_ada_main" targetname: "system__img_int__image_integer" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/accelerometer/src/main.adb:55:38" }
+edge: { sourcename: "_ada_main" targetname: "microbit__accelerometer__data" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/accelerometer/src/main.adb:52:28" }
+}

@@ -1,0 +1,3 @@
+Output_Dir := "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/accelerometer/obj/codepeer/accelerometer.output";
+Database_Dir := "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/accelerometer/obj/codepeer/accelerometer.db";
+

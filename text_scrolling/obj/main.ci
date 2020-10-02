@@ -1,0 +1,28 @@
+graph: { title: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/text_scrolling/src/main.adb"
+node: { title: "memset" label: "builtin_memset\n<built-in>" shape : ellipse }
+node: { title: "ada__text_io__put_line" label: "Put_Line\n/home/chouteau/src/GNAT_GPL/2018-arm-elf/arm-eabi/lib/gnat/zfp-microbit/gnat/a-textio.ads:46:14" shape : ellipse }
+node: { title: "command_line__run" label: "Run\n/home/chouteau/src/github/Ada_Drivers_Library/middleware/src/command_line/command_line.ads:74:14" shape : ellipse }
+node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
+node: { title: "ada__text_io__new_line" label: "New_Line\n/home/chouteau/src/GNAT_GPL/2018-arm-elf/arm-eabi/lib/gnat/zfp-microbit/gnat/a-textio.ads:49:14" shape : ellipse }
+node: { title: "ada__text_io__put" label: "Put\n/home/chouteau/src/GNAT_GPL/2018-arm-elf/arm-eabi/lib/gnat/zfp-microbit/gnat/a-textio.ads:40:14" shape : ellipse }
+node: { title: "ada__text_io__get" label: "Get\n/home/chouteau/src/GNAT_GPL/2018-arm-elf/arm-eabi/lib/gnat/zfp-microbit/gnat/a-textio.ads:37:14" shape : ellipse }
+node: { title: "__gnat_last_chance_handler" label: "gnat_last_chance_handler\n<built-in>" shape : ellipse }
+node: { title: "ada__text_io__put__2" label: "Put\n/home/chouteau/src/GNAT_GPL/2018-arm-elf/arm-eabi/lib/gnat/zfp-microbit/gnat/a-textio.ads:43:14" shape : ellipse }
+node: { title: "command_line__filesystem__register_all" label: "Register_All\n/home/chouteau/src/github/Ada_Drivers_Library/middleware/src/command_line/command_line-filesystem.ads:34:14" shape : ellipse }
+node: { title: "_ada_main" label: "Main\n/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/text_scrolling/src/main.adb:37:1\n368 bytes (dynamic)" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_last_chance_handler" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/text_scrolling/src/main.adb:65:21" }
+edge: { sourcename: "_ada_main" targetname: "ada__text_io__put_line" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/text_scrolling/src/main.adb:62:21" }
+edge: { sourcename: "_ada_main" targetname: "command_line__run" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/text_scrolling/src/main.adb:56:25" }
+edge: { sourcename: "_ada_main" targetname: "memcpy" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_last_chance_handler" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/text_scrolling/src/main.adb:54:62" }
+edge: { sourcename: "_ada_main" targetname: "ada__text_io__new_line" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/text_scrolling/src/main.adb:52:21" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_last_chance_handler" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/text_scrolling/src/main.adb:51:10" }
+edge: { sourcename: "_ada_main" targetname: "ada__text_io__put" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/text_scrolling/src/main.adb:50:18" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_last_chance_handler" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/text_scrolling/src/main.adb:50:24" }
+edge: { sourcename: "_ada_main" targetname: "ada__text_io__get" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/text_scrolling/src/main.adb:49:18" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_last_chance_handler" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/text_scrolling/src/main.adb:49:29" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_last_chance_handler" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/text_scrolling/src/main.adb:49:24" }
+edge: { sourcename: "_ada_main" targetname: "ada__text_io__put__2" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/text_scrolling/src/main.adb:46:21" }
+edge: { sourcename: "_ada_main" targetname: "command_line__filesystem__register_all" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/text_scrolling/src/main.adb:42:27" }
+edge: { sourcename: "_ada_main" targetname: "memset" }
+}

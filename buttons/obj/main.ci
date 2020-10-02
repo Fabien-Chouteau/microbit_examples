@@ -1,0 +1,13 @@
+graph: { title: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/buttons/src/main.adb"
+node: { title: "_ada_main" label: "Main\n/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/buttons/src/main.adb:36:1\n8 bytes (static)" }
+node: { title: "microbit__display__clear__2" label: "Clear\n/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/src/microbit-display.ads:42:14" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "microbit__display__clear__2" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/buttons/src/main.adb:40:23" }
+node: { title: "microbit__buttons__state" label: "State\n/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/src/microbit-buttons.ads:37:13" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "microbit__buttons__state" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/buttons/src/main.adb:42:26" }
+node: { title: "microbit__display__display" label: "Display\n/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/src/microbit-display.ads:45:14" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "microbit__display__display" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/buttons/src/main.adb:46:26" }
+edge: { sourcename: "_ada_main" targetname: "microbit__buttons__state" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/buttons/src/main.adb:48:29" }
+edge: { sourcename: "_ada_main" targetname: "microbit__display__display" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/buttons/src/main.adb:52:26" }
+node: { title: "microbit__time__delay_ms" label: "Delay_Ms\n/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/src/microbit-time.ads:41:14" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "microbit__time__delay_ms" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/buttons/src/main.adb:55:20" }
+}

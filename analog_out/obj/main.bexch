@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/analog_out/analog_out.gpr
+20200218153306 1f7e279700eecb807bd96655174aa708
+/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/microbit_zfp.gpr
+20200609141948 30a7bb3971a15d8e25646b9f9d3b5b84
+[BOUND OBJECT FILES]
+/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/analog_out/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/analog_out/obj/
+-L/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/analog_out/obj/
+-L/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/obj/zfp_lib_Debug/
+-L/home/chouteau/src/GNAT_GPL/2020-arm-elf/arm-eabi/lib/gnat/zfp-cortex-m0/adalib/
+-static
+-static-libgcc
+/home/chouteau/src/GNAT_GPL/2020-arm-elf/arm-eabi/lib/gnat/zfp-cortex-m0/adalib/libgnat.a

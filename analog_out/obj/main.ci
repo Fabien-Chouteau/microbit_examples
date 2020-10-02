@@ -1,0 +1,23 @@
+graph: { title: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/analog_out/src/main.adb"
+node: { title: "_ada_main" label: "Main\n/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/analog_out/src/main.adb:37:1\n8 bytes (static)" }
+node: { title: "microbit__display__clear__2" label: "Clear\n/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/src/microbit-display.ads:42:14" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "microbit__display__clear__2" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/analog_out/src/main.adb:40:20" }
+node: { title: "microbit__ios__set" label: "Set\n/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/src/microbit-ios.ads:52:14" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "microbit__ios__set" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/analog_out/src/main.adb:44:19" }
+node: { title: "microbit__buttons__state" label: "State\n/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/src/microbit-buttons.ads:37:13" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "microbit__buttons__state" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/analog_out/src/main.adb:46:10" }
+node: { title: "microbit__display__symbols__up_arrow" label: "Up_Arrow\n/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/src/microbit-display-symbols.ads:39:14" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "microbit__display__symbols__up_arrow" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/analog_out/src/main.adb:47:34" }
+edge: { sourcename: "_ada_main" targetname: "microbit__buttons__state" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/analog_out/src/main.adb:48:16" }
+node: { title: "microbit__ios__set__2" label: "Set\n/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/src/microbit-ios.ads:55:13" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "microbit__ios__set__2" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/analog_out/src/main.adb:49:46" }
+edge: { sourcename: "_ada_main" targetname: "microbit__ios__set" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/analog_out/src/main.adb:49:25" }
+edge: { sourcename: "_ada_main" targetname: "microbit__display__clear__2" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/analog_out/src/main.adb:51:26" }
+edge: { sourcename: "_ada_main" targetname: "microbit__buttons__state" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/analog_out/src/main.adb:52:13" }
+node: { title: "microbit__display__symbols__down_arrow" label: "Down_Arrow\n/home/chouteau/src/github/Ada_Drivers_Library/boards/MicroBit/src/microbit-display-symbols.ads:40:14" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "microbit__display__symbols__down_arrow" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/analog_out/src/main.adb:53:34" }
+edge: { sourcename: "_ada_main" targetname: "microbit__buttons__state" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/analog_out/src/main.adb:54:16" }
+edge: { sourcename: "_ada_main" targetname: "microbit__ios__set__2" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/analog_out/src/main.adb:55:46" }
+edge: { sourcename: "_ada_main" targetname: "microbit__ios__set" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/analog_out/src/main.adb:55:25" }
+edge: { sourcename: "_ada_main" targetname: "microbit__display__clear__2" label: "/home/chouteau/src/github/Ada_Drivers_Library/examples/MicroBit/analog_out/src/main.adb:57:26" }
+}

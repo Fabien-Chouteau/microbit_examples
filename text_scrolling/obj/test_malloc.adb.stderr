@@ -1,0 +1,2 @@
+test_malloc.adb:5:04: warning: variable "Memory" is read but never assigned
+test_malloc.adb:12:21: warning: formal parameter "Size" is not referenced
